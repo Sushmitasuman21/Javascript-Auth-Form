@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cowboy ecomm</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav>
+      <figure class="logo">Logo</figure>
+      <ul>
+        <li>Home</li>
+        <li id="navLoginbtn">Login</li>
+        <li id="navSignupbtn">Sign up</li>
+      </ul>
+    </nav>
+
+    <section id="home-section">
+      <video
+        src="./assets/videos/208373_medium.mp4"
+        autoplay
+        muted
+        loop
+      ></video>
+      <div class="overlay"></div>
+      <h1>Welcome</h1>
+      <p>Discover the world of possibilities</p>
+      <button>Explore More</button>
+    </section>
+
+    <!-- SIGNUP FORM -->
+    <section class="signup-container">
+      <form>
+        <h2>Create Your Account</h2>
+        <div class="formgroup">
+          <label for="username">Username</label>
+          <input type="text" id="signup-username" placeholder="Enter username..." />
+        </div>
+    
+        <div class="formgroup">
+          <label for="email">Email</label>
+          <input type="email" id="signup-email" placeholder="Enter email..." />
+        </div>
+    
+        <div class="formgroup">
+          <label for="password">Password</label>
+          <input type="password" id="signup-password" placeholder="Enter password..." />
+        </div>
+    
+        <div class="btngroup">
+          <button id="signupbtn" type="submit">Sign Up</button>
+        </div>
+      </form>
+    </section>
+
+    <!-- LOGIN FORM -->
+    <section class="login-container">
+      <form>
+        <h2>Login</h2>
+        <div class="formgroup">
+          <label for="email">Email</label>
+          <input type="email" id="login-email" placeholder="Enter email..." />
+        </div>
+    
+        <div class="formgroup">
+          <label for="password">Password</label>
+          <input type="password" id="login-password" placeholder="Enter password..." />
+        </div>
+    
+        <div class="btngroup">
+          <button id="loginbtn" type="submit">login</button>
+        </div>
+      </form>
+    </section>
+
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
